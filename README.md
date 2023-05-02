@@ -1,5 +1,6 @@
-# webp2pdf
-webp2pdf is a Python script that converts all WebP images in a folder to PDF format, and then merges them into a single PDF file. It can also convert a single WebP image file to PDF.
+# img2pdf
+img2pdf is a command-line program that converts image files to PDF format. All images in a folder can be converted to PDF format and combined into a single PDF file.
+It currently supports the following image formats: PNG, JPG, JPEG, WebP, BMP, GIF, TIFF
 
 # Requirements
 ・Python 3.x
@@ -13,14 +14,14 @@ pip install PyPDF2 Pillow
 ```
 
 # Usage
-To convert a folder of WebP images to a PDF file:
+To convert a folder to PDF file:
 ```bash
-python webp2pdf.py [folder_path]
+python img2pdf.py [folder_path]
 ```
 
-To convert a single WebP image file to a PDF file:
+To convert a single image file to PDF file:
 ```bash
-python webp2pdf.py [file_path]
+python img2pdf.py [image_file_path]
 ```
 
-Alternatively, You can also start the script by drag-and-drop the folder or file you want to convert onto webp2pdf.py without typing the command in the terminal.
+Alternatively, You can also start the script by drag-and-drop the folder or file you want to convert onto img2pdf.py without typing the command in the terminal.
