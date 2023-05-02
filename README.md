@@ -10,7 +10,7 @@ It currently supports the following image formats: PNG, JPG, JPEG, WebP, BMP, GI
 # Installation
 To use this script, you need to have Python 3 and the PyPDF2 and Pillow libraries installed. You can install these libraries using pip:
 ```bash
-pip install PyPDF2 Pillow
+pip install -r requirements.txt
 ```
 
 # Usage
