@@ -1,5 +1,5 @@
 # img2pdf
-img2pdf is a command-line program that converts image files to PDF format. All images in a folder can be converted to PDF format and combined into a single PDF file.
+img2pdf is a Python program that converts image files to PDF format. All images in a folder can be converted to PDF format and combined into a single PDF file.
 It currently supports the following image formats: PNG, JPG, JPEG, WebP, BMP, GIF, TIFF
 
 # Requirements
